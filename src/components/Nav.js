@@ -1,5 +1,4 @@
 import React from 'react'
-import '../assets/styles/Nav.css';
 import { NavLink } from 'react-router-dom';
 
 export function Nav() {
@@ -8,31 +7,31 @@ export function Nav() {
         <div className='nav'>
             <nav>
                 <ul className='navLinks'>
-                    <NavLink className='link' exact to="/" activeClassName='activeLink'>
+                    <NavLink className='link' to="/" >
                         <li className='current'>HOME</li>
                     </NavLink>
-                    <NavLink className='link' to="#" activeClassName='activeLink'>
-                        <li className='current'>WERK</li>
+                    <NavLink className='link' to="/test" >
+                        <li className='current'>test</li>
                     </NavLink>
-                    <NavLink className='link' to="#" activeClassName='activeLink'>
+                    <NavLink className='link' to="#">
                         <li className='current'>OVER</li>
                     </NavLink>
-                    <NavLink className='link' to="#" activeClassName='activeLink'>
+                    <NavLink className='link' to="#" >
                         <li className='current'>DIENSTEN</li>
                     </NavLink>
-                    <NavLink className='link' to="#" activeClassName='activeLink'>
+                    <NavLink className='link' to="#" >
                         <li className='current'>PARTNERS</li>
                     </NavLink>
-                    <NavLink className='link' to="#" activeClassName='activeLink'>
+                    <NavLink className='link' to="#" >
                         <li className='current'>STORIES</li>
                     </NavLink>
-                    <NavLink className='link' to="#" activeClassName='activeLink'>
+                    <NavLink className='link' to="#" >
                         <li className='current'>VACATURES</li>
                     </NavLink>
-                    <NavLink className='link' to="#" activeClassName='activeLink'>
+                    <NavLink className='link' to="#" >
                         <li className='current'>EVENTS</li>
                     </NavLink>
-                    <NavLink className='link' to="#" activeClassName='activeLink'>
+                    <NavLink className='link' to="#">
                         <li className='current'>CONTACT</li>
                     </NavLink>
                 </ul>
@@ -41,3 +40,4 @@ export function Nav() {
 
     )
 }
+
