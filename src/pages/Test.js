@@ -5,7 +5,7 @@ export function Test() {
 
     return (
         <div>
-        <h1>this is an another pagdsfsdfsdfe</h1>
+        <h1>this is an another</h1>
     </div>
     )
 }

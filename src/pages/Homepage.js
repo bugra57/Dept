@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+import backgroundIMG from '../assets/images/florensis.png';
+import '../assets/styles/Homepage.css';
 
 function Homepage() {
     
 
     return (
         <div className='homepage'>
-            <h1>Welcome to the homepage</h1>
+           <header className='header'>
+               <img src={backgroundIMG} alt="background image" className='bgImage'/>
+           </header>
         </div>
     )
 }
