@@ -32,6 +32,16 @@
   color: #61dafb;
 }
 
+h1, h2, h3, h4 {
+  font-family: "teko";
+  font-weight: 400;
+}
+
+p {
+  font-family: "teko";
+  font-weight: 300;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -11,3 +11,46 @@
     height: 90vh;
     padding: 20px;
 }
+
+.workSection {
+    display: flex;
+    justify-content: center;
+}
+
+.workContainer {
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+    width: 585px;
+}
+
+.workImg {
+    width: 585px;
+}
+
+/** Text styles**/
+
+.nameTxt {
+    color: #939393;
+    font-size: 15px;
+}
+
+.titleTxt {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.linkTxt {
+    color: #1A18F7;
+    font-weight: 600;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: -10px;
+}
