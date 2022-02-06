@@ -26,6 +26,7 @@ export function Nav() {
                 </Link>
             </div>
 
+            <div className='menu'>
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                 <ul className='nav-menu-items' onClick={showSidebar}>
                     <li className='navbar-toggle'>
@@ -42,7 +43,7 @@ export function Nav() {
                             return (
                                 <li key={idx} className={mItem.className}>
                                     <Link to={mItem.path}>
-                                        <h4>{mItem.title}</h4>
+                                        <span>{mItem.title}</span>
 
                                     </Link>
                                 </li>
@@ -51,6 +52,7 @@ export function Nav() {
                     }
                 </ul>
             </nav>
+            </div>
         </>
     )
 }
