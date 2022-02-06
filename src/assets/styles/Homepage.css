@@ -42,7 +42,6 @@
 
 .card {
     max-width: 585px;
-    border: 1px solid red
 }
 
 .workImg {
@@ -72,6 +71,28 @@
     cursor: pointer;
     margin-left: -10px;
 }
+
+/** Client section **/
+.clientSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F6F6;
+   
+}
+
+/* Client section text */
+.clientTitle {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.clientTxt {
+    font-size: 17px;
+
+}
+
 
 /* media  */
 
@@ -127,5 +148,16 @@
 
     .workImg {
         width: 335px;
+    }
+}
+
+@media (max-width: 335px) {
+    .card {
+        max-width: 235px;
+        
+    }
+
+    .workImg {
+        width: 235px;
     }
 }

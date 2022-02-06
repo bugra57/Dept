@@ -41,6 +41,13 @@ function Homepage() {
                     }
                 </div>
             </div>
+
+            <div className='clientSection'>
+                <p className='clientTitle'>CLIENTS</p>
+                <p className='clientTxt'>
+                    We value a great working relationship with our clients above all else. It's why then often come to our parties. It's also why we're able to challengen and inspire them to reach for the stars.
+                </p>
+            </div>
         </div>
     )
 }

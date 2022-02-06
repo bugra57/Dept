@@ -27,31 +27,31 @@ export function Nav() {
             </div>
 
             <div className='menu'>
-            <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-                <ul className='nav-menu-items' onClick={showSidebar}>
-                    <li className='navbar-toggle'>
-                        <Link to='#' className='menu-bars'>
-                            <IconContext.Provider value={{ color: "white" }}>
-                                <div>
-                                    <MdIcon.MdClose />
-                                </div>
-                            </IconContext.Provider>
-                        </Link>
-                    </li>
-                    {
-                        SidebarData.map((mItem, idx) => {
-                            return (
-                                <li key={idx} className={mItem.className}>
-                                    <Link to={mItem.path}>
-                                        <span>{mItem.title}</span>
+                <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+                    <ul className='nav-menu-items' onClick={showSidebar}>
+                        <li className='navbar-toggle'>
+                            <Link to='#' className='menu-bars'>
+                                <IconContext.Provider value={{ color: "white" }}>
+                                    <div>
+                                        <MdIcon.MdClose />
+                                    </div>
+                                </IconContext.Provider>
+                            </Link>
+                        </li>
+                        {
+                            SidebarData.map((mItem, idx) => {
+                                return (
+                                    <li key={idx} className={mItem.className}>
+                                        <Link to={mItem.path}>
+                                            <span>{mItem.title}</span>
 
-                                    </Link>
-                                </li>
-                            )
-                        })
-                    }
-                </ul>
-            </nav>
+                                        </Link>
+                                    </li>
+                                )
+                            })
+                        }
+                    </ul>
+                </nav>
             </div>
         </>
     )
