@@ -1,0 +1,114 @@
+/** footer **/
+.footer {
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+}
+
+.footerSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0E0E0E;
+}
+
+.footerTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.line {
+    margin-top: 20px;
+    width: 73%;
+    opacity: 40%;
+}
+
+.line p::after {
+    content: "";
+    height: 0.5px;
+    width: 90%;
+    background-color: white;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+.footerNav {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.businessInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    margin-left: 85px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+}
+
+/* footer text */
+.footerNav a {
+    text-decoration: none;
+    font-family: "teko";
+    font-size: 18px;
+    color: #FFF;
+}
+
+.businessInfo a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.footerBottom a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 200;
+}
+
+.copyright a {
+    margin-left: 5px;
+}
+
+/** top **/ 
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top p {
+    font-size: 22px;
+    color: #1A18F7;
+}
+
+.arrowIcon {
+    margin-bottom: -20px;
+}
