@@ -65,6 +65,10 @@
     bottom: 5%;
   }
   
+  .nav-text:last-child a::after {
+    height: 0px;
+  }
+
   .nav-menu-items {
     width: 100%;
   }
@@ -78,3 +82,25 @@
     position: absolute;
     right: 3%;
   }
+
+
+  @media (max-width: 1510px) {
+    .nav-menu.active {
+      overflow-y: scroll;
+    }
+}
+
+
+@media (max-width: 510px) {
+
+  .nav-menu.active {
+    overflow-y: hidden;
+  }
+  .nav-text {
+    padding: 2px 0px 2px 16px;
+  }
+  
+  .nav-text a {
+    font-size: 50px;
+  }
+}

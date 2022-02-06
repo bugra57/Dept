@@ -14,7 +14,7 @@ function Homepage() {
             </header>
 
             <div className='filterSection'>
-
+                <p className='txtFilter'>filter part</p>
             </div>
 
             <div className='workSection'>
