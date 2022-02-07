@@ -92,7 +92,6 @@ function Homepage() {
                 </div>
             </div>
 
-
             <div className='workSection'>
                 <div className='workContainer'>
                     {/* loops trough the data of the selected option */}
