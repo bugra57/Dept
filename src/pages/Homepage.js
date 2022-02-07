@@ -13,10 +13,11 @@ function Homepage() {
 
     return (
         <div className='homepage'>
+             <a id='topOfPage'></a>
             <header className='header'>
                 <img src={backgroundIMG} alt="background image" className='bgImage' />
             </header>
-
+           
             <div className='filterSection'>
                 <p className='txtFilter'>Show me: All-Work</p>
             </div>

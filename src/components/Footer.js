@@ -62,11 +62,11 @@ export function Footer() {
 
             <div className='top'>
                 <IconContext.Provider value={{ color: "#1A18F7", size: "30px" }}>
-                    <div className='arrowIcon'>
+                    <div>
                         <FaIcon.FaLongArrowAltUp />
                     </div>
                 </IconContext.Provider>
-                <p>TOP</p>
+                <a href='#topOfPage' className='goToTop'>TOP</a>
             </div>
         </div>
     )

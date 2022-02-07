@@ -104,11 +104,12 @@
     flex-direction: column;
 }
 
-.top p {
+.top a {
+    text-decoration: none;
     font-size: 22px;
     color: #1A18F7;
 }
 
-.arrowIcon {
-    margin-bottom: -20px;
+html {
+    scroll-behavior: smooth;
 }
