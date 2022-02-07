@@ -64,7 +64,7 @@ export function Footer() {
                         <FaIcon.FaLongArrowAltUp />
                     </div>
                 </IconContext.Provider>
-                <a href='#topOfPage' className='goToTop'>TOP</a>
+                <a href='#topOfPage'>TOP</a>
             </div>
         </div>
     )
