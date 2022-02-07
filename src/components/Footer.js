@@ -44,8 +44,8 @@ export function Footer() {
                 <div className='footerBottom'>
                     <div className='hiddenDiv'></div>
                     <div className='businessInfo'>
-                        <a>Chamber of Commerce: 63464101 </a>
-                        <a>VAT: NL 8552.47.502.B01 </a>
+                        <a href='#'>Chamber of Commerce: 63464101 </a>
+                        <a href='#'>VAT: NL 8552.47.502.B01 </a>
                         <a href='#'>Terms and conditions</a>
                     </div>
                     <div className='copyright'>

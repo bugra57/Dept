@@ -1,5 +1,4 @@
 /** header **/
-
 .header {
     display: flex;
     justify-content: center;
@@ -20,12 +19,27 @@
     justify-content: flex-end;
     align-items: center;
 }
+.filterSection p {
+    color: #939393;
+}
 
 .txtFilter {
     margin-right: 40px;
     font-size: 40px;
 }
 
+.filter {
+    margin-left: -30px;
+    margin-right: 20px;
+}
+
+.filter select {
+    border: transparent;
+    text-decoration: underline;
+    font-family: "teko";
+    font-weight: 500;
+    font-size: 40px;
+}
 /** Work**/
 
 .workSection {
