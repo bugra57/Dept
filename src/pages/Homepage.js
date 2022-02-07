@@ -3,6 +3,8 @@ import backgroundIMG from '../assets/images/florensis.png';
 import '../assets/styles/Homepage.css';
 import * as IoIcon from 'react-icons/io'
 import { IconContext } from "react-icons/lib";
+
+// Image import
 import deptLogo from '../assets/images/deptLogoBlack.png'
 
 // Data import 
@@ -64,17 +66,19 @@ function Homepage() {
                 </div>
             </header>
 
-
-
             <div className='filterSection'>
-                    <div className='headerBtnSecond'>
-                        <a href='#'>VIEW CASE</a>
-                    </div>
+                <div className='headerBtnSecond'>
+                    <a href='#'>VIEW CASE</a>
+                </div>
 
                 {/* dropdown */}
                 <div className='filter'>
-                     <p className='txtFilter'>Show me:</p>
+                    <p className='txtFilter'>Show me:</p>
                     <select onChange={handleChangeCourse}>
+                        {/* 
+                            loops through the data and gets the 
+                            tagnames and it will be displayed in the options
+                        */}
                         {
                             uniqueCompany.map(company => {
                                 return (
@@ -88,8 +92,10 @@ function Homepage() {
                 </div>
             </div>
 
+
             <div className='workSection'>
                 <div className='workContainer'>
+                    {/* loops trough the data of the selected option */}
                     {
                         filterDropdown.map((data) => {
                             return (
@@ -118,6 +124,7 @@ function Homepage() {
                     We value a great working relationship with our clients above all else. It's why then often come to our parties. It's also why we're able to challengen and inspire them to reach for the stars.
                 </p>
                 <div className='clientContainer'>
+                    {/* loop through the clients data */}
                     {
                         ClientsData.map((data) => {
                             return (
