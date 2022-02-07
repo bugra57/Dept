@@ -1,7 +1,7 @@
 /** footer **/
 .footer {
     display: grid;
-    grid-template-columns: 10fr 1fr;
+    grid-template-columns: 15fr 1fr;
 }
 
 .footerSection {
@@ -113,3 +113,82 @@
 html {
     scroll-behavior: smooth;
 }
+
+  /** media **/
+
+  @media (max-width: 1501px) {
+    .line {
+        width: 78%;
+    }  
+  }
+
+  @media (max-width: 1045px) {
+    .top {
+       display: none;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .deptLogo {
+        display: none;
+    }
+
+    .hiddenDiv {
+        display: none;
+    }
+
+    @media (max-width: 805px) {
+        .footerTop {
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+    
+        .footerNav {
+            flex-direction: column;
+            width: 100px;
+            height: 300px;
+            margin-left: 30px;
+        }
+
+        .line {
+            width: 95%;
+        }  
+    
+        .footerNav a{
+            font-size: 35px;
+            font-weight: 300;
+        }
+    
+        .icons {
+            display: flex;
+            flex-direction: column;
+            width: 100px;
+            height: 150px;
+            align-items: flex-end;
+            margin-right: 30px;
+        }
+    
+        .footerBottom {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        .businessInfo {
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            height: 60px;
+            width: 220px;
+            margin-left: 30px;
+        }
+    
+        .copyright {
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+    }
+    
+}
+

@@ -109,22 +109,22 @@
 
 /* media  */
 
-@media (max-width: 1210px) {
+@media (max-width: 1230px) {
     .workContainer {
-        gap: 25px;
+        gap: 20px;
     }
 
     .card {
-        max-width: 485px;
+        max-width: 455px;
         
     }
 
     .workImg {
-        width: 485px;
+        width: 455px;
     }
 }
 
-@media (max-width: 1010px) {
+@media (max-width: 1030px) {
     .card {
         max-width: 305px;
         

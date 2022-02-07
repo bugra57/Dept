@@ -11,7 +11,7 @@ export function Footer() {
         <div className='footer'>
             <div className='footerSection'>
                 <div className='footerTop'>
-                    <img src={deptLogo} alt="Dept logo"></img>
+                    <img src={deptLogo} alt="Dept logo" className='deptLogo'></img>
                     <div className='footerNav'>
                         <a href='#'>WORK</a>
                         <a href='#'>SERVICE</a>
@@ -42,7 +42,7 @@ export function Footer() {
                 <hr className='line'></hr>
 
                 <div className='footerBottom'>
-                    <div></div>
+                    <div className='hiddenDiv'></div>
                     <div className='businessInfo'>
                         <a>Chamber of Commerce: 63464101 </a>
                         <a>VAT: NL 8552.47.502.B01 </a>
@@ -50,9 +50,7 @@ export function Footer() {
                     </div>
                     <div className='copyright'>
                         <IconContext.Provider value={{ color: "rgba(158, 158, 158, 0.685)", size: "20px" }}>
-                            <div>
-                                <RiIcon.RiCopyrightLine />
-                            </div>
+                            <RiIcon.RiCopyrightLine />
                         </IconContext.Provider>
                         <a>2018 Dept Agency</a>
                     </div>
