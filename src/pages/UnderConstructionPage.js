@@ -6,9 +6,9 @@ import '../assets/styles/ConstructionPage.css'
 import deptImage from '../assets/images/deptOffice.jpeg'
 
 
-export function ConstructionPage() {
+export function UnderConstructionPage() {
     return (
-        <div className='contructionPage'>
+        <div className='underContructionPage'>
             <div className='text'>
                 <p>Coming Soon</p>
                 <a href='/'>Go back to Home</a>

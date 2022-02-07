@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Nav } from './components/Nav';
 import Homepage from './pages/Homepage';
 import { Footer } from './components/Footer';
-import { ConstructionPage } from './pages/ConstructionPage';
+import { UnderConstructionPage } from './pages/UnderConstructionPage';
 
 function App() {
 
@@ -14,14 +14,14 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/werk" element={<ConstructionPage />} />
-          <Route path="/over" element={<ConstructionPage />} />
-          <Route path="/diensten" element={<ConstructionPage />} />
-          <Route path="/partners" element={<ConstructionPage />} />
-          <Route path="/stories" element={<ConstructionPage />} />
-          <Route path="/vacatures" element={<ConstructionPage />} />
-          <Route path="/events" element={<ConstructionPage />} />
-          <Route path="/contact" element={<ConstructionPage />} />
+          <Route path="/werk" element={<UnderConstructionPage />} />
+          <Route path="/over" element={<UnderConstructionPage />} />
+          <Route path="/diensten" element={<UnderConstructionPage />} />
+          <Route path="/partners" element={<UnderConstructionPage />} />
+          <Route path="/stories" element={<UnderConstructionPage />} />
+          <Route path="/vacatures" element={<UnderConstructionPage />} />
+          <Route path="/events" element={<UnderConstructionPage />} />
+          <Route path="/contact" element={<UnderConstructionPage />} />
         </Routes>
         <Footer />
       </div>

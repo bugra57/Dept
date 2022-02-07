@@ -13,12 +13,12 @@ export function Footer() {
                 <div className='footerTop'>
                     <img src={deptLogo} alt="Dept logo" className='deptLogo'></img>
                     <div className='footerNav'>
-                        <a href='#'>WORK</a>
-                        <a href='#'>SERVICE</a>
-                        <a href='#'>STORIES</a>
-                        <a href='#'>ABOUT</a>
-                        <a href='#'>CAREERS</a>
-                        <a href='#'>CONTACT</a>
+                        <a href='/werk'>WORK</a>
+                        <a href='/diensten'>SERVICE</a>
+                        <a href='/stories'>STORIES</a>
+                        <a href='/over'>ABOUT</a>
+                        <a href='/vacatures'>CAREERS</a>
+                        <a href='/contact'>CONTACT</a>
                     </div>
 
                     <div className='socialMedia'>
