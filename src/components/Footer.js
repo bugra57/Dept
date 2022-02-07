@@ -24,9 +24,16 @@ export function Footer() {
                     <div className='socialMedia'>
                         <IconContext.Provider value={{ color: "#FFF", size: "20px" }}>
                             <div className='icons'>
-                                <RiIcon.RiFacebookFill />
-                                <RiIcon.RiTwitterFill />
-                                <RiIcon.RiInstagramFill />
+                                <a href='https://www.facebook.com/DeptAgency/' target="_blank">
+                                    <RiIcon.RiFacebookFill />
+                                </a>
+                                <a href='https://twitter.com/deptagency' target="_blank">
+                                    <RiIcon.RiTwitterFill />
+                                </a>
+                                <a href='https://www.instagram.com/deptagency/' target="_blank">
+                                    <RiIcon.RiInstagramFill />
+                                </a>
+
                             </div>
                         </IconContext.Provider>
                     </div>
@@ -54,9 +61,9 @@ export function Footer() {
             </div>
 
             <div className='top'>
-                <IconContext.Provider value={{ color: "#1A18F7", size: "30px"}}>
+                <IconContext.Provider value={{ color: "#1A18F7", size: "30px" }}>
                     <div className='arrowIcon'>
-                        <FaIcon.FaLongArrowAltUp/>
+                        <FaIcon.FaLongArrowAltUp />
                     </div>
                 </IconContext.Provider>
                 <p>TOP</p>
