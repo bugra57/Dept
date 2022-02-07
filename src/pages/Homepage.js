@@ -3,23 +3,16 @@ import backgroundIMG from '../assets/images/florensis.png';
 import '../assets/styles/Homepage.css';
 import * as IoIcon from 'react-icons/io'
 import { IconContext } from "react-icons/lib";
+import deptLogo from '../assets/images/deptLogoBlack.png'
 
 // Data import 
 import { WorkData } from '../data/WorkData';
 import { ClientsData } from '../data/ClientsData';
 
-
 function Homepage() {
 
     const [companies, setCompanies] = useState([]);
     const [company, setCompany] = useState("")
-
-    const tags = useState([
-        {nameTag: "All-work"}, 
-        {nameTag: "Government"},
-        {nameTag: "Webshop"},
-        {nameTag: "Business"},
-      ])
 
     const handleChangeCourse = event => {
         setCompany(event.target.value);
@@ -57,13 +50,30 @@ function Homepage() {
             <a id='topOfPage'></a>
             <header className='header'>
                 <img src={backgroundIMG} alt="background image" className='bgImage' />
+                <div className='headerTextContainer'>
+                    <div className='headerLogo'>
+                        <img src={deptLogo}></img>
+                    </div>
+
+                    <div className='headerTxt'>
+                        <p>WORK</p>
+                    </div>
+                    <div className='headerBtn'>
+                        <a href='#'>VIEW CASE</a>
+                    </div>
+                </div>
             </header>
 
+
+
             <div className='filterSection'>
-                <p className='txtFilter'>Show me:</p>
+                    <div className='headerBtnSecond'>
+                        <a href='#'>VIEW CASE</a>
+                    </div>
 
                 {/* dropdown */}
                 <div className='filter'>
+                     <p className='txtFilter'>Show me:</p>
                     <select onChange={handleChangeCourse}>
                         {
                             uniqueCompany.map(company => {
@@ -74,7 +84,6 @@ function Homepage() {
                                 )
                             })
                         }
-
                     </select>
                 </div>
             </div>
