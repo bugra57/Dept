@@ -15,3 +15,9 @@ npm install
 fourth step:
 
 npm start
+
+
+Info:
+
+When you start up the website, you will not see any data about projects in the beginning. 
+Choose one of the options and you will see the data.
